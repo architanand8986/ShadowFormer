@@ -16,7 +16,7 @@ import utils
 parser = argparse.ArgumentParser(description='ShadowFormer Inference Without GT')
 parser.add_argument('--input_dir', default='ISTD_Dataset/test',
     type=str, help='Directory of validation images')
-parser.add_argument('--result_dir', default='Results',
+parser.add_argument('--result_dir', default='/content/Result',
     type=str, help='Directory for results')
 parser.add_argument('--weights', default='ISTD_model_latest.pth',
     type=str, help='Path to weights')
